@@ -5,7 +5,7 @@
 @section('auth-contents')
     <form class="mt-14 space-y-5" novalidate>
         <div class="flex flex-col gap-2">
-            <label class="font-bold text-2xl" for="email">Email</label>
+            <label class="font-bold text-sm" for="email">Email</label>
 
         <input
             id="email"
@@ -19,7 +19,7 @@
 
     <div class="flex flex-col gap-2">
         <div class="flex  items-center justify-between">
-            <label class="font-bold text-2xl">Password</label>
+            <label class="font-bold text-sm">Password</label>
             <a href="#" class="text-indigo-950" tabindex="3">¿Olvidaste tu Contraseña?</a>
         </div>
         <input
